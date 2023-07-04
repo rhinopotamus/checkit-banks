@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <bank xmlns="https://checkit.clontz.org" version="0.2">
-    <title>New CheckIt Bank</title>
-    <slug>new-checkit-bank</slug>
+    <title>MATH 144</title>
+    <slug>math-144</slug>
     <url>https://checkit.clontz.org</url>
     <outcomes>
         <outcome>
@@ -10,6 +10,30 @@
             <path>outcomes/EX1</path>
             <description>
 Simplify the sum of two monomials.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Functions</title>
+            <slug>F1</slug>
+            <path>outcomes/F/F1</path>
+            <description>
+I can use function notation, find and simplify the output of a function given an input, and find an input that produces a given output; I can do this for functions given by a formula, a table, and a graph.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Average rate of change</title>
+            <slug>F2</slug>
+            <path>outcomes/F/F2</path>
+            <description>
+I can find the average rate of change (AROC) of a function on a given interval. In an applied context, I can state the units and interpret the real-world meaning of the AROC.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Linear functions</title>
+            <slug>F3</slug>
+            <path>outcomes/F/F3</path>
+            <description>
+I can find the slope of a linear function and find equations for the function in point-slope and slope-intercept form.
             </description>
         </outcome>
     </outcomes>
