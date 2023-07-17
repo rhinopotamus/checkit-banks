@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <!-- Use slope fields to qualitatively describe the behavior of solutions to differential equations. Identify equilibrium solutions to autonomous DEs. -->
+    <statement>
+        <p>
+            Consider the differential equation <m>\dfrac{dP}{dt} = (P-{{unstable}})({{stable}}-P)</m>.
+            <ol>
+                <li>Draw a slope field. (You can use technology to help.)</li>
+                <li>Find any equilibrium solutions and decide whether they are stable or unstable.</li>
+            </ol>
+        </p>
+    </statement>
+    <!-- The contents of <answer></answer> summarize the
+         "final answer" related to this task. -->
+    <answer>
+        <p>
+            The equilibrium solution <m>P(t) = {{stable}}</m> is stable. The equilibrium solution <m>P(t) = {{unstable}}</m> is unstable.
+        </p>
+    </answer>
+</exercise>

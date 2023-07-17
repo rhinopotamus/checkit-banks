@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            Recall that the power series for <m>f(x)={{f}}</m> is: <me>{{f}}=\sum_{n=0}^{\infty} {{seq}}.</me>
+            
+            <ol>
+                <li>Find a power series for <m>{{fm}}</m>.</li>
+                <li>Find a power series for <m>g(x) = {{fak}}</m>.</li>
+                {{#diff}}
+                <li>Find a power series for <m>f'(x)</m>.</li>
+                {{/diff}}
+                {{#int}}
+                <li>Find a power series for <m>G(x)</m>, an antiderivative of <m>g(x)</m> such that <m>G(0)={{c}}</m>.
+                    (Note that there is probably not a closed-form antiderivative for this function!)</li>
+                {{/int}}
+            </ol>
+        </p>
+        
+    </statement>
+    <answer>
+            <ol>
+                <li><m>\displaystyle {{fm}} = \sum_{n= 0 }^{\infty}{{seqm}}</m>.</li>
+                <li><m>\displaystyle {{fak}} = \sum_{n=0}^{\infty}{{seqak}}</m>.</li>
+                {{#diff}}
+                <li><m>\displaystyle f'(x)=\sum_{n=0}^{\infty}{{seqdiff}}</m>.</li>
+                {{/diff}}
+                {{#int}}
+                <li><m>\displaystyle G(x)={{c}}+\sum_{n={{start}} }^{\infty}{{seqint}}</m>.</li>
+                {{/int}}
+            </ol>
+    </answer>
+</exercise>

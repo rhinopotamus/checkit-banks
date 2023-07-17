@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            Consider the region bounded by the curves <m>{{yx}} + {{xy}}^2 = {{c}}</m> and <m>x = {{pmy}}</m>.
+            <ol>
+                <li>
+                    Sketch the region and draw a representative slice. (Should your slice be horizontal or vertical?)
+                </li>
+                <li>
+                    Write down a definite integral that computes the total area between the two curves.
+                    (It may be helpful to write down an expression for the approximate area of your slice.)
+                </li>
+                <li>
+                    Compute the value of your integral.
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <me>
+                \int_{ {{end1}} }^{ {{end2}} } {{integrand}}\ d{{xy}} = {{defint}}
+            </me>
+        </p>
+    </answer>
+</exercise>

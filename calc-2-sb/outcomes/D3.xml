@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+  <statement>
+    <p>
+      Show how to use Euler's method with two steps,
+        recording your work in a table,
+        to approximate
+      <m>y({{#final}}{{t}}{{/final}})</m> given the following
+      IVP.
+    </p>
+    <me>
+        \frac{dy}{dt}={{yp}};\qquad
+        {{#init}}y({{t}})={{y}}{{/init}}
+    </me>
+  </statement>
+  <answer>
+    <ul>
+        {{#vals}}
+            <li>
+                <m>y({{t}})\approx {{y}}</m>
+            </li>
+        {{/vals}}
+    </ul>
+  </answer>
+</exercise>
+
+
+<!-- my version
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            Use Euler's method with <m>\Delta t = {{h}}</m> to compute an approximation of
+            <m>y({{#final}}{{t}}{{/final}})</m> in the initial value problem
+            <me>\frac{dy}{dt} = {{yp}},\quad {{#init}}y({{t}})={{y}}{{/init}}</me>.
+        </p>
+        <p>
+            Record all your intermediate steps in a table like this:
+            <me>
+                \begin{array}{|l|l|l|l|}
+                \hline
+                \text{current } t &amp; \text{current } y &amp; \text{slope} &amp; \Delta y \\ \hline
+                                  &amp;                   &amp;              &amp;          \\ \hline
+                                  &amp;                   &amp;              &amp;          \\ \hline
+                                  &amp;                   &amp;              &amp;          \\ \hline
+                                  &amp;                   &amp;              &amp;          \\ \hline
+                                  &amp;                   &amp;              &amp;          \\ \hline
+                \end{array}
+            </me>
+        </p>
+    </statement>
+    <answer>
+        <p>
+            <me>
+                \begin{array}{|l|l|l|l|}
+                \hline
+                \text{current } t &amp; \text{current } y &amp; \text{slope} &amp; \Delta y \\ \hline
+                {{#vals}}
+                {{t}}             &amp; {{y}}             &amp; {{slope}}    &amp; {{dy}}   \\ \hline
+                {{/vals}}
+                \end{array}
+            </me>
+        </p>
+    </answer>
+</exercise>
+-->

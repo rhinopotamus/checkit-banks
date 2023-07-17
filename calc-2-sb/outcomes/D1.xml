@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <!-- Use a differential equation to model real-world phenomena. 
+Correctly identify variables and rates described in a word problem, 
+and correctly write equations relating quantities and their derivatives. -->
+    <statement>
+        <p>
+            Express the following statements as differential equations. In each case, you will need to introduce notation to describe the important quantities in the statement, so be sure to clearly state what your notation means.
+            <ol>
+                <li>{{choice1}}</li>
+                <li>{{choice2}}</li>
+                <li>{{choice3}}</li>
+            </ol>
+        </p>
+    </statement>
+    <!-- The contents of <answer></answer> summarize the
+         "final answer" related to this task. -->
+    <answer>
+        <p>
+            <ol>
+                <li><me>{{ans1}}</me></li>
+                <li><me>{{ans2}}</me></li>
+                <li><me>{{ans3}}</me></li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

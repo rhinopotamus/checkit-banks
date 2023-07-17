@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            Draw the region bounded by <m>y={{ f }}</m>, the <m>x</m>-axis, and the line <m>x={{right}}</m>.
+        </p>
+        
+        <p> Suppose this region is revolved about the <m>x</m>-axis.
+            <ol>
+                <li>Is a representative slice going to be horizontal or vertical?</li>
+                <li>Should we use disks or washers?</li>
+                <li>What is the approximate volume of a representative slice?</li>
+                <li>Write down a definite integral that computes the volume of this solid of revolution. (Bonus points for finding the value.)</li>
+            </ol>
+        </p>
+        
+        <p> Suppose this region is revolved about the line <m>x = {{leftaxis}}</m>.
+            <ol>
+                <li>Is a representative slice going to be horizontal or vertical?</li>
+                <li>Should we use disks or washers?</li>
+                <li>What is the approximate volume of a representative slice?</li>
+                <li>Write down a definite integral that computes the volume of this solid of revolution. (Bonus points for finding the value.)</li>
+            </ol>
+        </p>
+        
+    </statement>
+    <answer>
+        <p>
+            About the <m>x</m>-axis: vertical slices get revolved into disks.
+            <m>
+                \displaystyle V_\textrm{slice} = \pi \left( {{f}} \right)^2 \Delta x
+            </m>, so 
+            <m>
+                \displaystyle V_\textrm{total} = \int_0^{ {{right}} }\pi \left( {{f}} \right)^2\ dx
+            </m>.
+        </p>
+        <p>
+            About the line <m>x={{leftaxis}}</m>: horizontal slices get revolved into washers.
+            <m>
+                \displaystyle V_\textrm{slice} = \pi \left[ ({{right}} - ({{leftaxis}}))^2 - \left( {{g}} - ({{leftaxis}})\right)^2 \right] \Delta y
+            </m>, so
+            <m>
+                \displaystyle V_\textrm{total} = \int_0^{ {{top}} }\pi \left[ ({{right}} - ({{leftaxis}}))^2 - \left( {{g}} - ({{leftaxis}})\right)^2 \right]\ dy
+            </m>.
+        </p>
+    </answer>
+</exercise>

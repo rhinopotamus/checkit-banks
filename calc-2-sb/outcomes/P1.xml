@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            Let <m>f(x)</m> be a function such that:
+            
+            <me>
+                \begin{array}{|c|c|c|c|c|c|c|}
+                f({{center}}) &amp; f'({{center}}) &amp; f''({{center}}) &amp; f^{(3)}({{center}}) &amp; f^{(4)}({{center}}) &amp; f^{(5)}({{center}}) &amp; f^{(6)}({{center}}) \\
+                \hline
+                {{a0}} &amp; {{a1}} &amp; {{a2}} &amp; {{a3}} &amp; {{a4}} &amp; {{a5}} &amp; {{a6}} 
+                \end{array}
+            </me>
+            
+            <ol>
+                <li>Find a Taylor polynomial for <m>f(x)</m> centered at <m>x={{center}}</m> of degree <m>{{degree}}</m>.</li>
+                <li>Using the table above, spot the pattern for <m>f^{(k)}({{center}})</m>.</li>
+                <li>Use (b) to find a Taylor series for <m>f(x)</m> centered at <m>x={{center}}</m>.</li>
+                <li>Finally, use your results to approximate <m>f({{close}})</m> by computing <m>P_{{degree}}({{close}})</m>.</li>
+            </ol>
+        </p>
+        
+    </statement>
+    <answer>
+            <ol>
+                <li><m>P_{ {{degree}} }(x)={{poly}}</m>.</li>
+                <li><m>f^{(k)}({{center}})={{seq}}</m>.</li>
+                <li><m>\displaystyle f(x)=\sum_{k=0}^\infty \frac{ {{seq}} }{k!} (x-{{center}})^k</m>.</li>
+                <li><m>f({{close}}) \approx P_{{degree}}({{close}}) = {{approx}}</m></li>
+            </ol>
+    </answer>
+</exercise>

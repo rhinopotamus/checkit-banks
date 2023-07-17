@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<bank version="0.1" xmlns="https://checkit.clontz.org">
+  <title>Calculus 2 - Dr Bagley</title>
+  <url>https://github.com/stevenclontz/cal1-tbil-2021-checkit/</url>
+  <outcomes>
+    <outcome>
+        <title>Arc length</title>
+        <slug>A1b</slug> <!-- AI2 -->
+        <description>
+Use definite integrals to find the area of regions in the plane bounded by two or more curves, including integrating with respect to either variable. Use definite integrals to find the length of a curve.
+        </description>
+    </outcome>
+      
+      
+<!-- Ok so the rest are still Tien's objectives. -->
+<!--
+    
+    <outcome>
+      <title>Sequence formulas</title>
+      <slug>SQ1</slug>
+      <description>Define and use explicit and recursive formulas for
+      sequences.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Sequence properties and limits</title>
+      <slug>SQ2</slug>
+      <description>Determine if a sequence is convergent, divergent, monotonic,
+      or bounded, and compute limits of convergent sequences.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Partial sum sequence</title>
+      <slug>SQ3</slug>
+      <description>Convert a (telescoping) sequence into its partial sum
+      sequence, and find its limit.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Geometric summations</title>
+      <slug>SQ4</slug>
+      <description>Determine convergence and values of geometric
+      summations.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Basic convergence tests</title>
+      <slug>SQ5</slug>
+      <description>Use Divergence, Alternating Summation, and Integral Tests to
+      determine convergence of summations.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Comparison tests</title>
+      <slug>SQ6</slug>
+      <description>Use Direct and Limit Comparison Tests to determine
+      convergence of summations.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Ratio and Root tests</title>
+      <slug>SQ7</slug>
+      <description>Use Ratio and Root Tests to determine convergence of
+      summations.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Absolute convergence</title>
+      <slug>SQ8</slug>
+      <description>Determine absolute and conditional convergence of
+      summations.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Summation convergence strategy</title>
+      <slug>SQ9</slug>
+      <description>Identify appropriate convergence tests for various
+      summations.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Power series</title>
+      <slug>PS1</slug>
+      <description>Approximate functions defined as power series.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Domain of power series</title>
+      <slug>PS2</slug>
+      <description>Describe the domain of convergence for a given power
+      series.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Manipulation of power series</title>
+      <slug>PS3</slug>
+      <description>Compute power series by manipulating known
+      exponential/trigonometric/binomial power series.</description>
+      <alignment></alignment>
+    </outcome>
+    <outcome>
+      <title>Taylor series</title>
+      <slug>PS4</slug>
+      <description>Compute a Taylor or Maclaurin series for a
+      function.</description>
+      <alignment></alignment>
+    </outcome>
+-->
+  </outcomes>
+</bank>
