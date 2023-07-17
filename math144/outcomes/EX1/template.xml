@@ -12,7 +12,7 @@
             <item><p><m>{{result}}</m></p></item>
             <item><p><m>{{term0}}</m> and <m>{{term1}}</m> share a common factor of <m>{{factor0}}</m>.
             <m>{{term2}}</m> and <m>{{term3}}</m> share a common factor of <m>{{factor1}}</m>.</p></item>
-            <!--
+            <!-- It would be great if I could just reference lists. Not sure if svelte is chill with that.
             <item>{{terms[0]}} and {{terms[1]}} share a common factor of {{factors[0]}}.
             {{terms[2]}} and {{terms[3]}} share a common factor of {{factors[1]}}.</item>
             -->

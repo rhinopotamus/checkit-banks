@@ -19,7 +19,7 @@ class Generator(BaseGenerator):
             "term1": terms[1],
             "term2": terms[2],
             "term3": terms[3],
-            "factors": factors,
+            "factors": factors, # would be cool if I could pass lists!
             "factor0": factors[0],
             "factor1": factors[1],
             "sum": expr,
