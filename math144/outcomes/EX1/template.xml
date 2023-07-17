@@ -1,9 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <content>
-        <p>Simplify <m>{{sum}}</m>.</p>
+        <p>Consider the expression <m>{{sum}}</m>.</p>
+        <list>
+            <item><p>Combine like terms, as much as possible.</p></item>
+            <item><p>Which terms have common factors? Tell me what the common factors are.</p></item>
+        </list>
     </content>
     <outtro>
-        <p><m>{{result}}</m></p>
+        <list>
+            <item><p><m>{{result}}</m></p></item>
+            <item><p><m>{{term0}}</m> and <m>{{term1}}</m> share a common factor of <m>{{factor0}}</m>.
+            <m>{{term2}}</m> and <m>{{term3}}</m> share a common factor of <m>{{factor1}}</m>.</p></item>
+            <!--
+            <item>{{terms[0]}} and {{terms[1]}} share a common factor of {{factors[0]}}.
+            {{terms[2]}} and {{terms[3]}} share a common factor of {{factors[1]}}.</item>
+            -->
+        </list>
     </outtro>
 </knowl>
