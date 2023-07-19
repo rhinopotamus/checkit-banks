@@ -2,9 +2,9 @@
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <!-- {{#sinusoids}} -->
     <knowl>
-        <!-- {{#findfunction}} -->
+        <!-- {{#findformula}} -->
         <content>
-            <p>
+            <p> 
 For the pictured function below, determine a formula in the form 
 <m>f(t) = a \sin(k(t-b))+c</m> or <m> g(t) = a \cos(k(t-b))+c</m> 
 that fits the data. Write 1-2 sentences to explain your thinking, 
@@ -20,26 +20,28 @@ you can assume that it is.
             </p>
         </content>
         <outtro>
-            <p><m>y={{line}}</m></p>
+            <p><m>
+{{amplitude}}\cdot{{fn}}\left(\frac{2\pi}{ {{period}} }(t-{{phase}}) \right) + {{midline}}
+            </m></p>
         </outtro>
-        <!-- {{/findfunction}} -->
+        <!-- {{/findformula}} -->
         <!-- {{#findfeatures}} -->
-        <content>
+        <content> <!-- Period issue, probably -->
             <p>Consider the function <m>k(t)={{sinusoid}}</m>.
-            State the function's exact <b>amplitude</b>, 
-            <b>midline</b> (<m>y=c</m>),
-            <b>range</b>,
-            and <b>period</b> (<m>P</m>). </p>
+            State the function's exact 
+            amplitude,
+            midline (<m>y=c</m>),
+            range,
+            and period (<m>P</m>).
+            </p>
         </content>
         <outtro>
-            <p>
-                <list>
-                    <item>Amplitude: {{amplitude}}</item>
-                    <item>Midline: {{midline}}</item>
-                    <item>Range: <m>{{midline}} \pm {{amplitude}}</m></item>
-                    <item>Period: <m>{{period}}</m></item>
-                </list>
-            </p>
+            <list>
+                <item><p>Amplitude: {{amplitude}}</p></item>
+                <item><p>Midline: <m>y = {{midline}}</m></p></item>
+                <item><p>Range: <m>{{midline}} \pm {{amplitude}}</m></p></item>
+                <item><p>Period: <m>{{period}}</m></p></item>
+            </list>
         </outtro>
         <!-- {{/findfeatures}} -->
     </knowl>
