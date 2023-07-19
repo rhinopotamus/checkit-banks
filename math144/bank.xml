@@ -36,5 +36,14 @@ I can find the average rate of change (AROC) of a function on a given interval. 
 I can find the slope of a linear function and find equations for the function in point-slope and slope-intercept form.
             </description>
         </outcome>
+        <outcome>
+            <title>Transforming circular functions</title>
+            <slug>C2</slug>
+            <path>outcomes/C/C2</path>
+            <description>
+I can find the amplitude, period, and midline of a transformed version of the basic sine or cosine function; and I can find the formulas for transformed versions of the basic sine or cosine function.
+            </description>
+        </outcome>
+        
     </outcomes>
 </bank>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <!-- {{#sinusoids}} -->
+    <knowl>
+        <!-- {{#findfunction}} -->
+        <content>
+            <p>
+For the pictured function below, determine a formula in the form 
+<m>f(t) = a \sin(k(t-b))+c</m> or <m> g(t) = a \cos(k(t-b))+c</m> 
+that fits the data. Write 1-2 sentences to explain your thinking, 
+referencing the function's amplitude, midline, and period, 
+as well as any horizontal shift you use. If a point looks like it is
+on the midline or a minimum or maximum of the function, 
+you can assume that it is.
+            </p>
+            <p>
+                <image
+                    source="assets/C2/generated/{{__seed__}}/{{filename}}.png" />
+                    <!-- description="Line with intercept {{intercept}} and slope {{slope}}."/> -->
+            </p>
+        </content>
+        <outtro>
+            <p><m>y={{line}}</m></p>
+        </outtro>
+        <!-- {{/findfunction}} -->
+        <!-- {{#findfeatures}} -->
+        <content>
+            <p>Consider the function <m>k(t)={{sinusoid}}</m>.
+            State the function's exact <b>amplitude</b>, 
+            <b>midline</b> (<m>y=c</m>),
+            <b>range</b>,
+            and <b>period</b> (<m>P</m>). </p>
+        </content>
+        <outtro>
+            <p>
+                <list>
+                    <item>Amplitude: {{amplitude}}</item>
+                    <item>Midline: {{midline}}</item>
+                    <item>Range: <m>{{midline}} \pm {{amplitude}}</m></item>
+                    <item>Period: <m>{{period}}</m></item>
+                </list>
+            </p>
+        </outtro>
+        <!-- {{/findfeatures}} -->
+    </knowl>
+    <!-- {{/sinusoids}} -->
+</knowl>

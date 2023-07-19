@@ -1,3 +1,5 @@
+from sage.all import * 
+
 class Generator(BaseGenerator):
     def data(self):
         x=var("x")
