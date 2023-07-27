@@ -1,0 +1,3 @@
+[submodule "checkit"]
+	path = checkit
+	url = https://github.com/rhinopotamus/checkit
