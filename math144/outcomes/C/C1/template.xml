@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p> 
+Consider the circle centered at the point <m>{{center}}</m> whose circumference is <m>{{circumference}}</m>. 
+Let <m>h = f(d)</m> be the circular function that tracks the height, <m>h</m>, 
+of a point traversing the circle {{direction}} by starting at the point <m>P_0</m>,
+where <m>d</m> is the distance the point is along the circle from <m>P_0</m>. 
+Find the exact coordinates of 4 points on the circle, and give your best guess for two more. 
+Then, sketch an accurate graph of <m>h = f(d)</m>, clearly labeling at least
+6 different points on the function, and state the midline, amplitude, and period of the function. Provide a
+written summary of your computations and thinking.
+        </p>
+        <p>
+            <image
+                source="assets/C1/generated/{{__seed__}}/circleplot.png" />
+                <!-- description="Circle with center {{center}} and circumference {{circumference}}."/> -->
+        </p>
+    </content>
+    <outtro>
+        <p>Here are some important things that will help us figure out points on this circle:</p>
+        <list>
+            <item><p>Since the circumference is {{circumference}}, the <em>period</em> of <m>f(d)</m> is {{circumference}}.</p></item>
+            <item><p>The distance between each point marked on the circle is <m>\frac{{{circumference}}}{8} = {{deltad}}</m>.</p></item>
+            <item><p>Since the circle is centered at <m>{{center}}</m>, the <em>midline</em> of <m>f(d)</m> is <m> y = {{yc}}</m>.</p></item>
+            <item><p>Since the circumference is {{circumference}}, the radius is <m>\frac{ {{circumference}} }{2\pi} \approx {{radius}}</m>.
+            This will be the <em>amplitude</em> of <m>f(d)</m>.</p></item>
+        </list>
+        <p>
+            <image
+                source = "assets/C1/generated/{{__seed__}}/sinusoidplot.png" />
+        </p>
+        <p>(Note that this graph is incomplete because it doesn't have points labeled on it!)</p>
+    </outtro>
+</knowl>

@@ -37,6 +37,14 @@ I can find the slope of a linear function and find equations for the function in
             </description>
         </outcome>
         <outcome>
+            <title>Generating circular functions</title>
+            <slug>C1</slug>
+            <path>outcomes/C/C1</path>
+            <description>
+I can generate an accurate, labeled graph of a circular function given appropriate information about the circle being traversed, and describe key features of the function.
+            </description>
+        </outcome>
+        <outcome>
             <title>Transforming circular functions</title>
             <slug>C2</slug>
             <path>outcomes/C/C2</path>
