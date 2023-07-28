@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>
+Determine <em>exact</em> values for <m>a</m> and <m>b</m> so that the exponential function 
+<m>g(t) = ab^t</m> passes through the points <m>\left({{t1}}, {{y1}}\right)</m> and 
+<m>\left({{t2}}, {{y2}}\right)</m>.  Show all of your work and thinking fully.</p>
+    </content>
+    <outtro>
+        <p><em>Partial answer:</em></p> 
+        <p><me>b = \left( \frac{ {{y2}} }{ {{y1}} } \right)^{1/{{deltat}} }</me></p>
+        <p><me>a = \frac{ {{y1}} }{ ({{y2}} / {{y1}})^{ {{t1}}/{{deltat}} } }</me></p>
+        <p><me>g(t) = \frac{ {{y1}} }{ ({{y2}} / {{y1}})^{ {{t1}}/{{deltat}} } } \cdot 
+        \left( \left( \frac{ {{y2}} }{ {{y1}} } \right)^{1/{{deltat}} } \right)^t</me></p>
+    </outtro>
+</knowl>
