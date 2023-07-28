@@ -52,6 +52,13 @@ I can generate an accurate, labeled graph of a circular function given appropria
 I can find the amplitude, period, and midline of a transformed version of the basic sine or cosine function; and I can find the formulas for transformed versions of the basic sine or cosine function.
             </description>
         </outcome>
-        
+        <outcome>
+            <title>Fitting exponential functions</title>
+            <slug>E1</slug>
+            <path>outcomes/E/E1</path>
+            <description>
+I can find the formula for an exponential function given two data points.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
