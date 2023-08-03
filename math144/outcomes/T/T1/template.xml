@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>
+Without using a calculator or Desmos or whatever, find the <em>exact</em> values of each of the following.
+        </p>
+        <p>
+<em>No squequals, please!</em>
+        </p>
+<!-- Format as a table in LaTeX -->
+        <p>
+            <me>
+\begin{tabular}{lllll}
+(a) &amp; {{func0}}\left({{angle0}}\right) &amp;  &amp; (e) &amp; {{func0}}\left({{angle0}}\right) \\
+(b) &amp; {{func1}}\left({{angle1}}\right) &amp;  &amp; (f) &amp; {{func1}}\left({{angle1}}\right) \\
+(c) &amp; {{func2}}\left({{angle2}}\right) &amp;  &amp; (g) &amp; {{func2}}\left({{angle2}}\right) \\
+(d) &amp; {{func3}}\left({{angle3}}\right) &amp;  &amp; (h) &amp; {{func3}}\left({{angle3}}\right)
+\end{tabular}
+            </me>
+        </p>
+    </content>
+    <outtro>
+        <p><em>Partial answer:</em></p>
+        <p>
+            <me>
+\begin{tabular}{lllll}
+(a) &amp; {{ans_uc0}} &amp;  &amp; (e) &amp; {{ans_uc4}} \\
+(b) &amp; {{ans_uc1}} &amp;  &amp; (f) &amp; {{ans_uc5}} \\
+(c) &amp; {{ans_uc2}} &amp;  &amp; (g) &amp; {{ans_uc6}} \\
+(d) &amp; {{ans_uc3}} &amp;  &amp; (h) &amp; {{ans_uc7}}
+\end{tabular}
+            </me>
+        </p>
+    </outtro>
+</knowl>
