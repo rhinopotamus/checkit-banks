@@ -36,6 +36,7 @@ I can find the average rate of change (AROC) of a function on a given interval. 
 I can find the slope of a linear function and find equations for the function in point-slope and slope-intercept form.
             </description>
         </outcome>
+<!-- Chapter C -->
         <outcome>
             <title>Generating circular functions</title>
             <slug>C1</slug>
@@ -52,12 +53,22 @@ I can generate an accurate, labeled graph of a circular function given appropria
 I can find the amplitude, period, and midline of a transformed version of the basic sine or cosine function; and I can find the formulas for transformed versions of the basic sine or cosine function.
             </description>
         </outcome>
+<!-- Chapter E -->
         <outcome>
             <title>Fitting exponential functions</title>
             <slug>E1</slug>
             <path>outcomes/E/E1</path>
             <description>
 I can find the formula for an exponential function given two data points.
+            </description>
+        </outcome>
+<!-- Chapter T -->
+        <outcome>
+            <title>Sine, cosine, and tangent</title>
+            <slug>T1</slug>
+            <path>outcomes/T/T1</path>
+            <description>
+I can find the values of sine, cosine, and tangent at special points on the unit circle or for angles in a right triangle with labeled sides.
             </description>
         </outcome>
     </outcomes>
