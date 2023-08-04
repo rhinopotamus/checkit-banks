@@ -7,7 +7,16 @@ Without using a calculator or Desmos or whatever, find the <em>exact</em> values
         <p>
 <em>No squequals, please!</em>
         </p>
+<!-- new attempt with json list thing -->
+        <list mode="ordered">
+        {{#tablejson}}
+            <item><p><m>
+                {{func}}\left({{angle}}\right)
+            </m></p></item>
+        {{/tablejson}}
+        </list>
 <!-- Format as a table in LaTeX -->
+<!-- 
         <p>
             <me>
 \begin{tabular}{lllll}
@@ -18,9 +27,19 @@ Without using a calculator or Desmos or whatever, find the <em>exact</em> values
 \end{tabular}
             </me>
         </p>
+-->
     </content>
     <outtro>
         <p><em>Partial answer:</em></p>
+<!-- new attempt with json list thing -->
+        <list mode="ordered">
+        {{#answerjson}}
+            <item><p><m>
+                {{ans}}
+            </m></p></item>
+        {{/answerjson}}
+        </list>
+<!--
         <p>
             <me>
 \begin{tabular}{lllll}
@@ -31,5 +50,6 @@ Without using a calculator or Desmos or whatever, find the <em>exact</em> values
 \end{tabular}
             </me>
         </p>
+-->        
     </outtro>
 </knowl>
