@@ -34,3 +34,7 @@ t = \frac{1}{ {{k}} }\cdot \ln\left( \frac{y - {{V}} }{ {{P}} } \right)
 <!-- a thought: 
 \let\log\relax \newcommand{\log}{\ln}
 -->
+
+<!-- 
+part b: "- {{B}}"" is very annoying when B < 0
+-->
