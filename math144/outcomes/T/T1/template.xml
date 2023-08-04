@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <content>
+    <p><em>Part (a):</em></p>
         <p>
 Without using a calculator or Desmos or whatever, find the <em>exact</em> values of each of the following.
         </p>
@@ -15,19 +16,13 @@ Without using a calculator or Desmos or whatever, find the <em>exact</em> values
             </m></p></item>
         {{/tablejson}}
         </list>
-<!-- Format as a table in LaTeX -->
-<!-- 
+    <p><em>Part (b):</em></p>
         <p>
-            <me>
-\begin{tabular}{lllll}
-(a) &amp; {{func0}}\left({{angle0}}\right) &amp;  &amp; (e) &amp; {{func0}}\left({{angle0}}\right) \\
-(b) &amp; {{func1}}\left({{angle1}}\right) &amp;  &amp; (f) &amp; {{func1}}\left({{angle1}}\right) \\
-(c) &amp; {{func2}}\left({{angle2}}\right) &amp;  &amp; (g) &amp; {{func2}}\left({{angle2}}\right) \\
-(d) &amp; {{func3}}\left({{angle3}}\right) &amp;  &amp; (h) &amp; {{func3}}\left({{angle3}}\right)
-\end{tabular}
-            </me>
+In a right triangle with legs with length {{leg1}} and {{leg2}}
+and hypotenuse {{hyp}}, find the sine, cosine, and tangent 
+of the smaller of the two non-right angles. 
+<em>Draw a picture!</em>
         </p>
--->
     </content>
     <outtro>
         <p><em>Partial answer:</em></p>

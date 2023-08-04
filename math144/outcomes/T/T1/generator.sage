@@ -23,5 +23,15 @@ class Generator(BaseGenerator):
 
         return {
             "tablejson": tablejson,
-            "answerjson": answerjson
+            "answerjson": answerjson,
+            "leg1": triple[0],
+            "leg2": triple[1],
+            "hyp": triple[2]
         }
+
+# NOTES:
+# This works! The json-formatted lists pass back correctly.
+# Annoyances:
+# - Ordered list doesn't appear to be working correctly.
+# - Sage renders pi-fractions weird.
+# - I accidentally got a tan(3pi/2) whose value is undefined.
