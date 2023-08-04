@@ -26,6 +26,7 @@ of the smaller of the two non-right angles.
     </content>
     <outtro>
         <p><em>Partial answer:</em></p>
+        <p><em>Part (a):</em></p>
 <!-- new attempt with json list thing -->
         <list mode="ordered">
         {{#answerjson}}
@@ -34,17 +35,17 @@ of the smaller of the two non-right angles.
             </m></p></item>
         {{/answerjson}}
         </list>
-<!--
-        <p>
-            <me>
-\begin{tabular}{lllll}
-(a) &amp; {{ans_uc0}} &amp;  &amp; (e) &amp; {{ans_uc4}} \\
-(b) &amp; {{ans_uc1}} &amp;  &amp; (f) &amp; {{ans_uc5}} \\
-(c) &amp; {{ans_uc2}} &amp;  &amp; (g) &amp; {{ans_uc6}} \\
-(d) &amp; {{ans_uc3}} &amp;  &amp; (h) &amp; {{ans_uc7}}
-\end{tabular}
-            </me>
-        </p>
--->        
+        <p><em>Part (b):</em></p>
+        <list>
+            <item><p><m>
+                \sin\theta = \frac{ {{leg1}} }{ {{hyp}} }
+            </m></p></item>
+            <item><p><m>
+                \cos\theta = \frac{ {{leg2}} }{ {{hyp}} }
+            </m></p></item>
+            <item><p><m>
+                \tan\theta = \frac{ {{leg1}} }{ {{leg2}} }
+            </m></p></item>
+        </list>
     </outtro>
 </knowl>
