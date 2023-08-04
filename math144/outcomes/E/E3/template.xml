@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>
+Find the exact solution (<em>no squequals, please!</em>)
+to each of the following equations, writing your solution 
+in terms of exponential or logarithmic expressions appropriately.  
+Show your steps and thinking clearly. 
+        </p>
+<list>
+    <item><p><me>{{parta}}</me></p></item>
+    <item><p><me>\let\log\relax \newcommand{\log}{\ln} {{partb}}</me></p></item>
+    <item><p>Solve the following equation for <m>t</m> in terms of <m>y</m>:
+    <me>{{partc}}</me></p></item> 
+</list>
+    </content>
+    <outtro>
+        <p><em>Partial answer:</em></p>
+        <list>
+<item><p><me>
+t = \frac{\ln\left(\frac{ {{dminusa}} }{c}\right)}
+         { {{m}} \cdot \ln\left( {{q}} \right)  } - \frac{ {{b}} }{ {{m}} }
+</me></p></item>
+<item><p><me>
+t = \frac{1}{ {{m}} } \left(e^{ {{RminusC}} / {{A}} } - {{B}} \right)
+</me></p></item>
+<item><p><me>
+t = \frac{1}{ {{k}} }\cdot \ln\left( \frac{y - {{V}} }{ {{P}} } \right)
+</me></p></item> 
+        </list>
+    </outtro>
+</knowl>
+
+<!-- a thought: 
+\let\log\relax \newcommand{\log}{\ln}
+-->
