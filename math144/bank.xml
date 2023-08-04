@@ -70,6 +70,14 @@ I can find the formula for an exponential function given two data points.
 I can describe the long-term behavior of an exponential function or a transformed version of an exponential function. I can tell whether the function is increasing, decreasing, concave up, or concave down.
             </description>
         </outcome>
+        <outcome>
+            <title>Features of exponential functions</title>
+            <slug>E2</slug>
+            <path>outcomes/E/E2</path>
+            <description>
+I can solve equations involving exponential and logarithmic expressions. I can apply the properties of exponential and logarithmic functions to simplify expressions.
+            </description>
+        </outcome>
 <!-- Chapter T -->
         <outcome>
             <title>Sine, cosine, and tangent</title>
