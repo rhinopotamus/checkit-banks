@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>
+Consider a function of the form <m>f(t) = c \pm a b^t</m>.
+By selecting positive constants <m>a</m>, <m>b</m>, and <m>c</m>
+and choosing appropiately from the <m>\pm</m> sign,
+give an example* of such a function that has the following properties: 
+        </p>
+<list>
+    <item><p><m>f</m> is always {{creasing}},</p></item>
+    <item><p><m>f</m> is always {{concave}},</p></item>
+    <item><p>as <m>{{limdir}}</m>, <m>f(t) \to {{lim}}</m>.</p></item> 
+</list>
+        <p>
+Explain how you know that your choices for <m>a</m>, <m>b</m>, and <m>c</m>
+produce a function with the correct properties.
+        </p>
+        <p>
+(<em>* Note:</em> there are many, many choices that work; 
+you just need to think about the characteristics of the function <m>f</m>
+and what you need to be true of <m>a</m>, <m>b</m>, and <m>c</m>.)
+        </p>
+    </content>
+    <outtro>
+        <p><em>Partial answer:</em></p>
+        <list>
+            <item><p>The <m>\pm</m> must be <m>{{pm}}</m>.</p></item>
+            <item><p>We need <m>{{growdec}}</m>.</p></item>
+            <item><p><m>c</m> must equal <m>{{lim}}</m>.</p></item>
+        </list>
+    </outtro>
+</knowl>
