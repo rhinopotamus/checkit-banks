@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+    <p><em>Part (a):</em></p>
+        <p>
+Without using a calculator or Desmos or whatever, 
+find the <em>exact</em> values of each of the following.
+        </p>
+        <p>
+<em>No squequals, please!</em>
+        </p>
+<!-- new attempt with json list thing -->
+        <list mode="ordered">
+        {{#promptjson}}
+            <item><p><m>
+                {{func}}\left({{ratio}}\right)
+            </m></p></item>
+        {{/promptjson}}
+        </list>
+<!--         
+    <p><em>Part (b):</em></p>
+        <p>
+In a right triangle with legs with length {{leg1}} and {{leg2}}
+and hypotenuse {{hyp}}, find the sine, cosine, and tangent 
+of the smaller of the two non-right angles. 
+<em>Draw a picture!</em>
+        </p>
+-->
+    </content>
+    <outtro>
+        <p><em>Partial answer:</em></p>
+        <p><em>Part (a):</em></p>
+<!-- new attempt with json list thing -->
+        <list mode="ordered">
+        {{#answerjson}}
+            <item><p><m>
+                {{ans}}
+            </m></p></item>
+        {{/answerjson}}
+        </list>
+<!--        
+        <p><em>Part (b):</em></p>
+        <list>
+            <item><p><m>
+                \sin\theta = \frac{ {{leg1}} }{ {{hyp}} }
+            </m></p></item>
+            <item><p><m>
+                \cos\theta = \frac{ {{leg2}} }{ {{hyp}} }
+            </m></p></item>
+            <item><p><m>
+                \tan\theta = \frac{ {{leg1}} }{ {{leg2}} }
+            </m></p></item>
+        </list>
+-->
+    </outtro>
+</knowl>

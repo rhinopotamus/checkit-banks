@@ -87,5 +87,13 @@ I can solve equations involving exponential and logarithmic expressions. I can a
 I can find the values of sine, cosine, and tangent at special points on the unit circle or for angles in a right triangle with labeled sides.
             </description>
         </outcome>
+        <outcome>
+            <title>Arcsine, arccosine, and arctangent</title>
+            <slug>T3</slug>
+            <path>outcomes/T/T3</path>
+            <description>
+I can compute the values of the arcsine, arccosine, and arctangent functions for inputs arising from the unit circle or a labeled right triangle.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
