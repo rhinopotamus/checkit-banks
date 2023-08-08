@@ -10,7 +10,7 @@ class Generator(BaseGenerator):
         foo = [(
             funcs[i],
             ratios[i],
-            funcs[i](ratios[i]) 
+            simplify(funcs[i](ratios[i])) # Why simplify? Who knows!!
         ) for i in range(8)]
         shuffle(foo)
         # ... and then rip them apart!!!!
@@ -32,4 +32,3 @@ class Generator(BaseGenerator):
 # Annoyances:
 # - Ordered list doesn't appear to be working correctly.
 # - Sage renders pi-fractions weird.
-# - I accidentally got a tan(3pi/2) whose value is undefined.
