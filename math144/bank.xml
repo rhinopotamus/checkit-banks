@@ -88,6 +88,14 @@ I can find the values of sine, cosine, and tangent at special points on the unit
             </description>
         </outcome>
         <outcome>
+            <title>Solving right triangle puzzles</title>
+            <slug>T2</slug>
+            <path>outcomes/T/T2</path>
+            <description>
+Given a right triangle with partial information about its sides and angles, I can determine the missing information for the remaining sides and angles.
+            </description>
+        </outcome>
+        <outcome>
             <title>Arcsine, arccosine, and arctangent</title>
             <slug>T3</slug>
             <path>outcomes/T/T3</path>

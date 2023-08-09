@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+    <p>
+For each of the following parts, draw and clearly label a picture, and use
+that picture to find the <em>exact</em> values of the missing pieces of
+the right triangle. <em>No squequals, please!</em>
+    </p>
+    <p><em>Part (a):</em></p>
+        <p>
+In a certain right triangle, one angle measures {{angle1A}} radians
+and {{sideA}} has length {{length1A}}.
+Find the <em>exact</em> measure of the non-right angle and the 
+<em>exact</em> lengths of the other two sides. 
+        </p>
+    <p><em>Part (b):</em></p>
+        <p>
+In a given right triangle, 
+{{side1B}} has length {{length1B}} and {{side2B}} has length {{length2B}}.
+Find the exact length of the remaining side and 
+both exact and approximate measures of the two non-right angles 
+(both in radians).
+        </p>
+    <p><em>Part (c):</em></p>
+        <p>
+Consider the right triangle with hypotenuse <m>{{hypC}}</m>, 
+horizontal leg <m>{{adjC}}</m>, and vertical leg <m>{{oppC}}</m>, with angle 
+<m>\theta</m> opposite the vertical leg.  
+How can we view <m>{{v1}}</m> as depending on <m>{{v2}}</m> only?  
+How can we view <m>{{v1}}</m> as depending on <m>\theta</m> only? 
+        </p>
+    </content>
+    <outtro>
+        <p><em>Partial answer:</em></p>
+
+        <p><em>Part (a):</em></p>
+        <p>
+            The side adjacent to the given angle is <m>{{adjA}}</m>.
+            The side opposite to the given angle is <m>{{oppA}}</m>.
+            The hypotenuse is <m>{{hypA}}</m>.
+            The other non-right angle is <m>{{angle2A}}</m>.
+        </p>
+        <p><em>Part (b):</em></p>
+        <p>
+            The two legs have length <m>{{adjB}}</m> and <m>{{oppB}}</m>.
+            The hypotenuse has length <m>{{hypB}}</m>. The two angles are
+            <m>{{angle1B}}</m> and <m>{{angle2B}}</m>
+        </p>
+        <p><em>Part (c):</em></p>
+        <p><m>{{v1}} = {{ans1C}}</m>, and <m>{{v1}} = {{ans2C}}</m>.</p>
+    </outtro>
+</knowl>
