@@ -23,28 +23,28 @@ class Generator(BaseGenerator):
             adjA = oppA / tan(angle1A)
 
         ### PART B!
-        [side1B, side2B] = sample(["the hypotenuse", "one leg", "one leg"])
+        [side1B, side2B] = sample(["the hypotenuse", "one leg", "one leg"], 2)
         if side1B == side2B: # they're both legs!
             side2B = "the other leg"
             [length1B, length2B] = sample(range(1, 10), 2)
             [adjB, oppB] = [length1B, length2B]
             hypB = sqrt(adjB^2 + oppB^2)
-            angle1B = arctan(oppB / adjB)
-            angle2B = arctan(adjB / oppB)
+            angle1B = arctan(oppB / adjB, hold=True)
+            angle2B = arctan(adjB / oppB, hold=True)
         elif side1B == "the hypotenuse": # we're in hyp-leg territory!
             [length2B, length1B] = sorted(sample(range(1,10), 2))
             hypB = length1B
             adjB = length2B
             oppB = sqrt(hypB^2 - adjB^2)
-            angle1B = arcsin(oppB / hypB)
-            angle2B = arccos(oppB / hypB)
+            angle1B = arcsin(oppB / hypB, hold=True)
+            angle2B = arccos(oppB / hypB, hold=True)
         else: #side2B is the hypotenuse and side1B is a leg
             [length1B, length2B] = sorted(sample(range(1,10), 2))
             hypB = length2B
             adjB = length1B
             oppB = sqrt(hypB^2 - adjB^2)
-            angle1B = arcsin(oppB / hypB)
-            angle2B = arccos(oppB / hypB)
+            angle1B = arcsin(oppB / hypB, hold=True)
+            angle2B = arccos(oppB / hypB, hold=True)
         
 
         ### PART C!
@@ -102,10 +102,3 @@ class Generator(BaseGenerator):
             "ans1C": ans1C,
             "ans2C": ans2C
         }
-
-# NOTES:
-# This works! The json-formatted lists pass back correctly.
-# Annoyances:
-# - Ordered list doesn't appear to be working correctly.
-# - Sage renders pi-fractions weird.
-# - I accidentally got a tan(3pi/2) whose value is undefined.

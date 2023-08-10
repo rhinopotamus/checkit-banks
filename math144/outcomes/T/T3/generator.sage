@@ -32,7 +32,6 @@ class Generator(BaseGenerator):
             that is, the ramp can only rise 1 inch for every 12 inches long it is. \
             What's the maximum angle, <em>in degrees</em>, the ramp can make \
             with the flat ground around it? <em>Draw and label a picture!</em>", 
-            # Make sure this string literal works
             "\\theta = \\arctan\\left(\\dfrac{1}{12}\\right) \\approx 4.764^\circ."),
             ("A photographer is taking pictures of a hot air balloon launch. \
             When the balloon launches, the photographer is 850 feet away \
