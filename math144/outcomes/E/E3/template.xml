@@ -9,7 +9,7 @@ Show your steps and thinking clearly.
         </p>
 <list>
     <item><p><me>{{parta}}</me></p></item>
-    <item><p><me>\let\log\relax \newcommand{\log}{\ln} {{partb}}</me></p></item>
+    <item><p><me>\renewcommand{\log}{\ln} {{partb}}</me></p></item>
     <item><p>Solve the following equation for <m>t</m> in terms of <m>y</m>:
     <me>{{partc}}</me></p></item> 
 </list>
