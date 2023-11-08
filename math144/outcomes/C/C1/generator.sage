@@ -58,8 +58,8 @@ class Generator(BaseGenerator):
                           data['textlocs'][k].imag()))
         sinusoid = plot(data["sinusoid"], data["domain"])
         return {
-            data["circleplot"]: circ,
-            data["sinusoidplot"]: sinusoid
+            "circleplot": circ,
+            "sinusoidplot": sinusoid
         }
         
 """
