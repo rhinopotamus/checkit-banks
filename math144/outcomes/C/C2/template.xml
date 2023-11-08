@@ -27,7 +27,7 @@ you can assume that it is.
         <!-- {{/findformula}} -->
         <!-- {{#findfeatures}} -->
         <content> <!-- Period issue, probably -->
-            <p>Consider the function <m>k(t)={{sinusoid}}</m>.
+            <p>Consider the function <m>k(t)={{amplitude}}\cdot{{fn}}\left(\frac{2\pi}{ {{period}} }(t-{{phase}}) \right) + {{midline}}</m>.
             State the function's exact 
             amplitude,
             midline (<m>y=c</m>),
