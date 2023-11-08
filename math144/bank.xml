@@ -48,7 +48,6 @@ I can find the slope of a linear function and find equations for the function in
 I can generate an accurate, labeled graph of a circular function given appropriate information about the circle being traversed, and describe key features of the function.
             </description>
         </outcome>
-<!-- This one is currently broken.         
         <outcome>
             <title>Transforming circular functions</title>
             <slug>C2</slug>
@@ -57,7 +56,7 @@ I can generate an accurate, labeled graph of a circular function given appropria
 I can find the amplitude, period, and midline of a transformed version of the basic sine or cosine function; and I can find the formulas for transformed versions of the basic sine or cosine function.
             </description>
         </outcome>
--->
+
 <!-- Chapter E -->
         <outcome>
             <title>Fitting exponential functions</title>
