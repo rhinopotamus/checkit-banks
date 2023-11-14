@@ -4,6 +4,7 @@ class Generator(BaseGenerator):
     def data(self):
         concave = choice(["concave up", "concave down"])
         creasing = choice(["increasing", "decreasing"])
+        lim = choice([-1, 1]) * randrange(1, 6))
         if concave == "concave up" and creasing == "increasing":
             pm = "+"
             growdec = "b > 1"
@@ -26,5 +27,6 @@ class Generator(BaseGenerator):
             "creasing": creasing,
             "pm": pm,
             "growdec": growdec,
-            "limdir": limdir
+            "limdir": limdir,
+            "lim": lim
         }
