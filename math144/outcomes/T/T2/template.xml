@@ -8,15 +8,16 @@ the right triangle. <em>No squequals, please!</em>
     </p>
     <p><em>Part (a):</em></p>
         <p>
-In a certain right triangle, one angle measures {{angle1A}} radians
-and {{sideA}} has length {{length1A}}.
+In a certain right triangle, one angle measures <m>{{angle1A}}</m> radians
+and <m>{{sideA}}</m> has length <m>{{length1A}}</m>.
 Find the <em>exact</em> measure of the non-right angle and the 
 <em>exact</em> lengths of the other two sides. 
         </p>
     <p><em>Part (b):</em></p>
         <p>
 In a given right triangle, 
-{{side1B}} has length {{length1B}} and {{side2B}} has length {{length2B}}.
+<m>{{side1B}}</m> has length <m>{{length1B}}</m> and 
+            <m>{{side2B}}</m> has length <m>{{length2B}}</m>.
 Find the exact length of the remaining side and 
 both exact and approximate measures of the two non-right angles 
 (both in radians).
