@@ -21,7 +21,7 @@ written summary of your computations and thinking.
         <p>Here are some important things that will help us figure out points on this circle:</p>
         <list>
             <item><p>Since the circumference is {{circumference}}, the <em>period</em> of <m>f(d)</m> is {{circumference}}.</p></item>
-            <item><p>The distance between each point marked on the circle is <m>\frac{{{circumference}}}{8} = {{deltad}}</m>.</p></item>
+            <item><p>The distance between each point marked on the circle is <m>\frac{ {{circumference}} }{8} = {{deltad}}</m>.</p></item>
             <item><p>Since the circle is centered at <m>{{center}}</m>, the <em>midline</em> of <m>f(d)</m> is <m> y = {{yc}}</m>.</p></item>
             <item><p>Since the circumference is {{circumference}}, the radius is <m>\frac{ {{circumference}} }{2\pi} \approx {{radius}}</m>.
             This will be the <em>amplitude</em> of <m>f(d)</m>.</p></item>
